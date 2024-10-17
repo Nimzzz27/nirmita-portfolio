@@ -1,0 +1,108 @@
+body {
+  font-family: "Outfit";
+}
+
+.absolute-navbar {
+  background-color: #ffffff;
+  border-radius: 60px;
+  padding: 0.75vw 1.75vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    li {
+      display: inline-block;
+      margin: 0px 10px;
+      a {
+        font-size: 1.75vw;
+        font-family: Outfit;
+        padding: 10px 2vw;
+        font-weight: 400;
+        text-decoration: none;
+        display: block;
+        border-radius: 100px;
+        color: #162b39;
+        text-align: center;
+        transition: all 0.4 ease-in-out;
+
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #a64f1e;
+          color: #ffffff;
+        }
+      }
+    }
+
+    li.active {
+      a {
+        background-color: #662f11;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.common-button {
+  background-color: #662f11;
+  color: #ffffff;
+  border-radius: 40px;
+  font-size: 1.75vw;
+  padding: 2% 6%;
+  border: none;
+  font-family: "Outfit";
+}
+
+.common-button:hover {
+  background-color: #ffd9ac;
+  border: none;
+  color: #662f11;
+}
+
+.white-common-button {
+  background-color: #ffffff;
+  color: #662f11;
+  border-radius: 40px;
+  font-size: 1.75vw;
+  padding: 2% 6%;
+  border: none;
+  font-family: "Outfit";
+}
+
+.white-common-button:hover {
+  background-color: #ffd9ac;
+  border: none;
+  color: #662f11;
+}
+
+@media (max-width: 576px) {
+  .absolute-navbar {
+    ul {
+      li {
+        a {
+          padding: 4px 2vw;
+        }
+      }
+    }
+  }
+}
+@keyframes moveUp {
+  0% {
+    transform: translateY(25px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,116 @@
+.home-navbar-container {
+  margin-top: 3%;
+}
+
+.home-body {
+  background-color: #341b16;
+}
+
+.welcome-to-my-portfolio-parent {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 15% 7% 15%;
+  border-radius: 5% 5% 0% 0%;
+}
+
+.welcome-to-my {
+  font-size: 4vw;
+  font-family: "Krona One";
+  color: #000;
+  text-align: center;
+  margin: 0% 0% 6%;
+}
+
+.my-projects {
+  margin: 5% 0% 6%;
+}
+
+.hey-there-container {
+  font-size: 2vw;
+  font-weight: 300;
+  font-family: "Outfit";
+  color: #040404;
+  transition: all 0.3s linear;
+  animation: moveUp 0.5s ease forwards;
+  animation-delay: 0.5s;
+}
+
+.hey {
+  text-align: center;
+}
+
+.home-img {
+  background: #341b16;
+  border-radius: 20px;
+}
+
+.home-img:hover {
+  background: #eda983;
+}
+
+.col {
+  font-size: 3.25vw;
+  font-family: "Outfit";
+}
+
+.home-image-1-icon {
+  width: 100%;
+  height: auto;
+}
+
+.quote-container {
+  margin-top: 9%;
+}
+
+.home-photo-container {
+  position: relative;
+}
+
+.intro-container {
+  position: absolute;
+  bottom: 25%;
+  left: 4%;
+  color: white;
+}
+
+.intro-title,
+.intro-hey {
+  font-family: "Krona One";
+  font-size: 5vw;
+  transition: all 0.3s linear;
+  animation: moveUp 0.5s ease forwards;
+}
+
+.intro-hey {
+  transition: all 0.3s linear;
+  animation: moveUp 0.5s ease forwards;
+}
+
+.intro-title {
+  transition: all 0.3s linear;
+  animation: moveUp 0.5s ease forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+.intro-subtitle {
+  font-family: Outfit;
+  font-size: 2.5vw;
+  transition: all 0.3s linear;
+  animation: moveUp 0.5s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+.my-project-title {
+  font-size: 2.75vw;
+  margin-top: 4%;
+}
+
+@media (max-width: 576px) {
+  .home-img {
+    border-radius: 10px;
+  }
+}
